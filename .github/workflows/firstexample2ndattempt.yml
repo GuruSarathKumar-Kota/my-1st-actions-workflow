@@ -16,4 +16,4 @@ jobs:
               run: ls
 
             - name: read the file in current repo
-              run: README.md
+              run: cat README.md
