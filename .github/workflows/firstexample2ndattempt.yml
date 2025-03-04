@@ -11,5 +11,5 @@ jobs:
               
             - name: list and read the files
               run: |
-                ls -ltr
+                ls -la
                 cat README.md
