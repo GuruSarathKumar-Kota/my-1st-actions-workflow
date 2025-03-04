@@ -1,0 +1,16 @@
+name: my first workflow second attempt
+
+on: push
+
+jobs:
+    myfirstjobsecondattempt:
+        runs-on: ubuntu-latest
+        steps:
+            - name: welcome message
+              run: echo my first job second attempt
+            
+            - name: list the files
+              run: ls
+
+            - name: read the file
+              run: README.md
