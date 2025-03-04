@@ -12,5 +12,5 @@ jobs:
             - name: list the files
               run: ls
 
-            - name: read the file in repo
+            - name: read the file in current repo
               run: README.md
